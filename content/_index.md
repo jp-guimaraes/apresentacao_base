@@ -1,5 +1,5 @@
 +++
-title = "Instalação de Sistemas Operacionais"
+title = "Título"
 outputs = ["Reveal"]
 
 
@@ -14,13 +14,10 @@ transition_speed = "fast"
 
 
 
-# 🔀
 
+# Título
 
-
-# Instalação de Sistemas Operacionais
-
-🖥️ Organização e Manutenção de Computadores 
+Disciplina
 
 
 

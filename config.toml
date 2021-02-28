@@ -1,5 +1,5 @@
-baseURL = "https://jp-guimaraes.github.io/slides_instalacaoso/"
-# baseURL = "localhost"
+#baseURL = "https://jp-guimaraes.github.io/nomedorepo/"
+baseURL = "localhost"
 languageCode = "en-us"
 title = "Fontes"
 
