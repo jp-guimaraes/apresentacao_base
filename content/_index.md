@@ -1,6 +1,5 @@
 +++
-<<<<<<< HEAD
-title = "Apresentação Base"
+title = "Instalação de Sistemas Operacionais"
 outputs = ["Reveal"]
 
 
@@ -19,9 +18,9 @@ transition_speed = "fast"
 
 
 
-# Título
+# Instalação de Sistemas Operacionais
 
-🖥️ Disciplina
+🖥️ Organização e Manutenção de Computadores 
 
 
 
@@ -31,12 +30,3 @@ transition_speed = "fast"
 
 
 
-=======
-title = "My presentation"
-outputs = ["Reveal"]
-+++
-
-# Hello world!
-
-This is my first slide.
->>>>>>> 78356a290cce3155d7b30d45a91de31026ea8d0d

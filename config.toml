@@ -1,13 +1,7 @@
-<<<<<<< HEAD
-#baseURL = "https://jp-guimaraes.github.io/<repo>/"
-baseURL = "localhost"
+baseURL = "https://jp-guimaraes.github.io/slides_instalacaoso/"
+# baseURL = "localhost"
 languageCode = "en-us"
 title = "Fontes"
-=======
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
->>>>>>> 78356a290cce3155d7b30d45a91de31026ea8d0d
 
 theme = "reveal-hugo"
 
