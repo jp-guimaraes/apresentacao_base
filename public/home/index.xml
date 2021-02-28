@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Fontes</title>
+    <link>https://jp-guimaraes.github.io/slides_instalacaoso/home/</link>
+    <description>Recent content in Homes on Fontes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://jp-guimaraes.github.io/slides_instalacaoso/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/slides_instalacaoso/home/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/slides_instalacaoso/home/intro/</guid>
+      <description> Objetivos Conhecer os passos da instalação de sistemas operacionais mais usados atualmente
+Entender as razões pelas quais esse procedimento deve ser realizado
+ Sumário  Quando instalar ou re-instalar sistemas operacionais? Procedimentos para instalação de sistemas operacionais Instalação do Windows 10 Instalação do Ubuntu 20.04   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/slides_instalacaoso/home/quando/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/slides_instalacaoso/home/quando/</guid>
+      <description>Quando instalar o SO? Dispositivos novos
+Upgrades (hardware/software)
+Problemas (software):
+ Malwares Arquivos corrompidos Lentidão Incompatibilidades (drivers, software aplicativo, etc) Versão de programas específicos Lixo (softwares instalados em pacotes) Conflitos (hardware/software) Segurança   E antes? O que fazer num sistema operacional antes de reinstala-lo?
+ BACKUP! Cópia dos dados de interesse para outra mídia/partição
+-&amp;gt; Formatação da partição que vai receber o S.O é necessária para a reinstalação</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/slides_instalacaoso/home/procedimento/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/slides_instalacaoso/home/procedimento/</guid>
+      <description>Checklist O que ter em mente e o que fazer antes e durante a instalação de um sistema operacional?
+  Qual sistema operacional vai ser instalado/reinstalado? O backup já foi realizado? Qual sistema operacional será instalado?  Hardware tem suporte a esse SO? (32 bits, 64 bits, drivers, plataforma)   Qual mídia será usada para instalação?  CD,DVD,pendrive, boot pela rede?   Hardware tem suporte a essa mídia?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/slides_instalacaoso/home/drivers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/slides_instalacaoso/home/drivers/</guid>
+      <description>drivers O que são drivers?
+Interface entre Hardware e o sistema operacional
+ Atenção Driver vs Drive
+ Como adquirir os drivers? É dever do fabricante fornecer o driver
+Driver genérico
+Mídia física
+Internet
+Requisistos: Fabricante, Modelo e Sistema Operacional
+ Manutenção preventiva Conferir se todos os drivers estão na versão mais atual
+ Problemas de segurança Incremento de desempenho Melhorias e novas funcionalidades Fix de bugs   Manutenção corretiva Driver instalado incompatível com sistema operacional ou hardware</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/slides_instalacaoso/home/exemplos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/slides_instalacaoso/home/exemplos/</guid>
+      <description> Exemplos  Instalação do Windows 10 Instalação do Ubuntu 20.04   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/slides_instalacaoso/home/dualboot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/slides_instalacaoso/home/dualboot/</guid>
+      <description> Dual boot O que é?
+Necessidade?
+ Como fazer? Ordem adequada de instalação:
+ WINDOWS Distribuição Linux  Instalação do GRUB     Quando a instalação é feita na ordem: 1. Distro linux; 2. Windows
+Grub perdido Reinstalação do grub
+Live cd/pendrive bootável
+Procedimento de recuperação do grub
+ </description>
+    </item>
+    
+  </channel>
+</rss>

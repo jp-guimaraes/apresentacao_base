@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<meta name="generator" content="Hugo 0.68.3" />
+    <meta charset="utf-8">
+<title>Instalação de Sistemas Operacionais</title>
+
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="/slides_instalacaoso/reveal-js/css/reset.css">
+<link rel="stylesheet" href="/slides_instalacaoso/reveal-js/css/reveal.css"><link rel="stylesheet" href="/slides_instalacaoso/robot-lung.css" id="theme"><link rel="stylesheet" href="/slides_instalacaoso/highlight-js/color-brewer.min.css">
+    
+  </head>
+  <body>
+    
+    <div class="reveal">
+      <div class="slides">
+  
+
+    <section><h1 id="heading">🔀</h1>
+<h1 id="instalação-de-sistemas-operacionais">Instalação de Sistemas Operacionais</h1>
+<p>🖥️ Organização e Manutenção de Computadores</p>
+<p><a href="https://jp-guimaraes.github.io/">🌐 João Paulo Guimarães</a></p>
+</section>
+
+  
+
+    <section>
+
+<section data-shortcode-section>
+<h1 id="objetivos">Objetivos</h1>
+<p>Conhecer os passos da instalação de sistemas operacionais mais usados atualmente</p>
+<p>Entender as razões pelas quais esse procedimento deve ser realizado</p>
+</section><section>
+<h1 id="sumário">Sumário</h1>
+<ol>
+<li>Quando instalar ou re-instalar sistemas operacionais?</li>
+<li>Procedimentos para instalação de sistemas operacionais</li>
+<li>Instalação do Windows 10</li>
+<li>Instalação do Ubuntu 20.04</li>
+</ol>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="quando-instalar-o-so">Quando instalar o SO?</h1>
+<p>Dispositivos novos</p>
+<p>Upgrades (hardware/software)</p>
+<p>Problemas (software):</p>
+<ul>
+<li>Malwares</li>
+<li>Arquivos corrompidos</li>
+<li>Lentidão</li>
+<li>Incompatibilidades (drivers, software aplicativo, etc)</li>
+<li>Versão de programas específicos</li>
+<li>Lixo (softwares instalados em pacotes)</li>
+<li>Conflitos (hardware/software)</li>
+<li>Segurança</li>
+</ul>
+</section><section>
+<h1 id="e-antes">E antes?</h1>
+<p>O que fazer num sistema operacional antes de reinstala-lo?</p>
+</section><section>
+<h1 id="backup">BACKUP!</h1>
+<p>Cópia dos dados de interesse para outra mídia/partição</p>
+<p>-&gt; Formatação da partição que vai receber o S.O é necessária para a reinstalação</p>
+</section><section>
+<h1 id="manutenção-preventiva">Manutenção preventiva</h1>
+<p>Computadores públicos (escolas, cafés, lanhouse, etc)</p>
+</section><section>
+<h1 id="manutenção-preventiva-1">Manutenção preventiva</h1>
+<p>(para usuários domésticos)</p>
+<ul>
+<li>
+<p>Instalar apenas programas necessários; Desinstalar programas desnecessários</p>
+<ul>
+<li>Cuidado a instalar softwares (bundles)</li>
+</ul>
+</li>
+<li>
+<p>Verificar quais programas estão no procedimento de inicialização</p>
+</li>
+<li>
+<p>Softwares para &lsquo;limpeza&rsquo; de registros e outros arquivos temporários</p>
+</li>
+</ul>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="checklist">Checklist</h1>
+<p>O que ter em mente e o que fazer antes e durante a instalação de um sistema operacional?</p>
+</section><section>
+<ol>
+<li>Qual sistema operacional vai ser instalado/reinstalado?</li>
+<li>O backup já foi realizado?</li>
+<li>Qual sistema operacional será instalado?
+<ul>
+<li>Hardware tem suporte a esse SO? (32 bits, 64 bits, drivers, plataforma)</li>
+</ul>
+</li>
+<li>Qual mídia será usada para instalação?
+<ul>
+<li>CD,DVD,pendrive, boot pela rede?</li>
+</ul>
+</li>
+<li>Hardware tem suporte a essa mídia?</li>
+<li>Qual disco vai receber o sistema operacional?
+<ul>
+<li>Disco foi instalado?</li>
+<li>Disco está sendo reconhecido pela BIOS do computador ou pelo sistema operacional antigo?</li>
+</ul>
+</li>
+<li>Qual partição do disco escolhido vai receber o sistema operacional?
+<ul>
+<li>Qual sistema de arquivo deve ser usado para o SO?</li>
+<li>Conferir backup</li>
+<li>Realizar formatação para sistema de arquivo apropriado (quando necessário)</li>
+</ul>
+</li>
+</ol>
+</section><section>
+<h1 id="procedimento">Procedimento</h1>
+<ol>
+<li>Fazer backup</li>
+<li>Criar mídia bootável
+<ul>
+<li>CD, DVD, USB, Rede -&gt; Vendedor ou software especialista para criação</li>
+<li><strong>recomendo RUFUS -&gt; GPT, MBR</strong></li>
+</ul>
+</li>
+<li>Particionar e formatar o volume que vai receber o SO
+<ul>
+<li><strong>em caso de particionamento, recomendo o gparted</strong></li>
+</ul>
+</li>
+<li>No setup, colocar mídia escolhida como prioridade</li>
+<li>Seguir passo a passo do instalador do sistema</li>
+<li>Conectar o computador a internet e baixar as últimas atualizações do sistema operacional e os <strong>drivers</strong></li>
+</ol>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="drivers">drivers</h1>
+<p>O que são drivers?</p>
+<p>Interface entre Hardware e o sistema operacional</p>
+</section><section>
+<h1 id="atenção">Atenção</h1>
+<p>Driver vs Drive</p>
+</section><section>
+<h1 id="como-adquirir-os-drivers">Como adquirir os drivers?</h1>
+<p>É dever do fabricante fornecer o driver</p>
+<p>Driver genérico</p>
+<p>Mídia física</p>
+<p>Internet</p>
+<p>Requisistos: Fabricante, Modelo e Sistema Operacional</p>
+</section><section>
+<h1 id="manutenção-preventiva">Manutenção preventiva</h1>
+<p>Conferir se todos os drivers estão na versão mais atual</p>
+<ul>
+<li>Problemas de segurança</li>
+<li>Incremento de desempenho</li>
+<li>Melhorias e novas funcionalidades</li>
+<li>Fix de bugs</li>
+</ul>
+</section><section>
+<h1 id="manutenção-corretiva">Manutenção corretiva</h1>
+<p>Driver instalado incompatível com sistema operacional ou hardware</p>
+<p>Driver genérico</p>
+<p>Crashs em programas específicos ou sob teste de stress</p>
+</section><section>
+<h1 id="gerenciamento-de-drivers">Gerenciamento de drivers</h1>
+<p>Atualizações</p>
+<p>Gerenciador de dispositivos</p>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="exemplos">Exemplos</h1>
+<ol>
+<li>Instalação do Windows 10</li>
+<li>Instalação do Ubuntu 20.04</li>
+</ol>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="dual-boot">Dual boot</h1>
+<p>O que é?</p>
+<p>Necessidade?</p>
+</section><section>
+<h1 id="como-fazer">Como fazer?</h1>
+<p>Ordem adequada de instalação:</p>
+<ol>
+<li>WINDOWS</li>
+<li>Distribuição Linux
+<ul>
+<li>Instalação do GRUB</li>
+</ul>
+</li>
+</ol>
+</section><section>
+<p>Quando a instalação é feita na ordem: 1. Distro linux; 2. Windows</p>
+<h1 id="grub-perdido">Grub perdido</h1>
+<p>Reinstalação do grub</p>
+<p>Live cd/pendrive bootável</p>
+<p>Procedimento de recuperação do grub</p>
+
+</section>
+</section>
+
+</div>
+      
+
+    </div>
+<script type="text/javascript" src=/slides_instalacaoso/reveal-hugo/object-assign.js></script>
+
+<a href="/slides_instalacaoso/reveal-js/css/print/" id="print-location" style="display: none;"></a>
+<script type="text/javascript">
+  var printLocationElement = document.getElementById('print-location');
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = printLocationElement.href + (window.location.search.match(/print-pdf/gi) ? 'pdf.css' : 'paper.css');
+  document.getElementsByTagName('head')[0].appendChild(link);
+</script>
+
+<script type="application/json" id="reveal-hugo-site-params">null</script>
+<script type="application/json" id="reveal-hugo-page-params">{"custom_theme":"robot-lung.css","highlight_theme":"color-brewer","margin":0.2,"transition":"slide","transition_speed":"fast"}</script>
+
+<script src="/slides_instalacaoso/reveal-js/js/reveal.js"></script>
+
+<script type="text/javascript">
+  
+  
+  function camelize(map) {
+    if (map) {
+      Object.keys(map).forEach(function(k) {
+        newK = k.replace(/(\_\w)/g, function(m) { return m[1].toUpperCase() });
+        if (newK != k) {
+          map[newK] = map[k];
+          delete map[k];
+        }
+      });
+    }
+    return map;
+  }
+  
+  var revealHugoDefaults = { center: true, controls: true, history: true, progress: true, transition: "slide" };
+  var revealHugoSiteParams = JSON.parse(document.getElementById('reveal-hugo-site-params').innerHTML);
+  var revealHugoPageParams = JSON.parse(document.getElementById('reveal-hugo-page-params').innerHTML);
+  
+  var options = Object.assign({},
+    camelize(revealHugoDefaults),
+    camelize(revealHugoSiteParams),
+    camelize(revealHugoPageParams));
+  Reveal.initialize(options);
+</script>
+
+
+  
+  
+  <script type="text/javascript" src="/slides_instalacaoso/reveal-js/plugin/markdown/marked.js"></script>
+  
+  <script type="text/javascript" src="/slides_instalacaoso/reveal-js/plugin/markdown/markdown.js"></script>
+  
+  <script type="text/javascript" src="/slides_instalacaoso/reveal-js/plugin/highlight/highlight.js"></script>
+  
+  <script type="text/javascript" src="/slides_instalacaoso/reveal-js/plugin/zoom-js/zoom.js"></script>
+  
+  
+  <script type="text/javascript" src="/slides_instalacaoso/reveal-js/plugin/notes/notes.js"></script>
+
+
+
+    
+    
+  </body>
+</html>
